@@ -1,0 +1,20 @@
+{
+    "$schema": "https://cloud.uipath.com/draft/2024-12/entry-point",
+    "$id": "entry-points.json",
+    "entryPoints": [
+        {
+            "filePath": "ixpy-df-mcp",
+            "uniqueId": "39ebc5ed-fb53-4150-81f4-78194fc0ec35",
+            "type": "mcpserver",
+            "input": {
+                "type": "object",
+                "properties": {}
+            },
+            "output": {
+                "type": "object",
+                "properties": {}
+            },
+            "graph": null
+        }
+    ]
+}

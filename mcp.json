@@ -1,0 +1,14 @@
+{
+  "servers": {
+    "ixpy-df-mcp": {
+      "transport": "stdio",
+      "command": "python",
+      "args": ["server.py"],
+      "env": {
+        "UIPATH_URL": "https://cloud.uipath.com/growthuipath/Workshops",
+        "UIPATH_CLASSIFICATION_ENTITY_KEY": "a53dcdc2-b3fb-f011-8d4c-7c1e520d46c6",
+        "UIPATH_FOLDER_PATH": "Shared/nn_IXP"
+      }
+    }
+  }
+}

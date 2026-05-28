@@ -1,0 +1,16 @@
+[project]
+name = "ixpy-df-mcp"
+version = "0.1.2"
+authors = [{ name = "Nathan Ness" }]
+description = "IXP Data Fabric MCP Server"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "uipath>=2.8.23,<2.8.44",
+    "uipath-mcp>=0.1.0",
+]
+
+[dependency-groups]
+dev = [
+    "uipath-dev>=0.0.53",
+]
